@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  box-sizing: border-box;
+  font-family: "Press Start 2P";
+}
+
+body {
+  background-image: url(images/8bit\ background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: #48d297;
+}
+
+h4 {
+  color: #48d297;
+  padding: 5px;
+}
+
+p {
+  padding: 5px;
+}
+
+.entity {
+  position: relative;
+  top: 200px;
+}
+
+.button {
+  margin: auto;
+  text-align: center;
+  position: relative;
+  top: 202px;
+  left: 0px;
+}
+
+button {
+  background-color: #a9013f;
+  border: none;
+  margin: -1px;
+  padding: 19px 81px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+
+  border: 1px solid black;
+}
+
+.hero {
+  width: 850px;
+  height: 300px;
+  background-image: url(images/bobnruuhero.png);
+  margin: auto;
+  border: 2px solid;
+}
+
+.CSS {
+  color: #ec0fb3;
+  top: 65px;
+  left: 136px;
+  position: relative;
+  font-size: 38px;
+}
+
+.cols {
+  width: 850px;
+  height: 550px;
+  background-color: #a9013f;
+  margin: auto;
+}
+.col1 {
+  width: 328px;
+  height: 328px;
+  background-color: #631a48;
+  /* background-image: url("https://media.giphy.com/media/3oEduXWSTEroC5U7aE/giphy.gif"); */
+  background-image: url("https://media.giphy.com/media/90P4pmc1WZcpG/giphy.gif");
+  background-size: 100%;
+  float: left;
+  border: 2px solid black;
+  margin: 5px 5px 0 0;
+}
+
+.col2 {
+  width: 512px;
+  height: 512px;
+  background-color: #631a48;
+  float: right;
+  border: 2px solid black;
+  margin: 5px 0 0 5px;
+}
